@@ -41,13 +41,12 @@ img{
 
 
 .imgsize{
-
     animation: imgsizing 10s infinite ;
     
 }
 
 p{
-    animation: colorchanging 10s infinite;
+    animation: colorelement 10s infinite;
 }
 
 @keyframes colorchanging {
@@ -64,6 +63,24 @@ p{
     }   
     100%{
         color: rgb(230, 206, 50);
+
+    }   
+}
+
+@keyframes colorelement {
+    0%{
+        color: rgb(237, 181, 40);
+    }
+    50%{
+        color: rgb(49, 181, 20);
+    }
+
+    75%{
+        color: rgb(16, 43, 198);
+
+    }   
+    100%{
+        color: rgb(230, 50, 221);
 
     }   
 }

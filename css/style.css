@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    animation: backgroundBG 10s 3s infinite;
+
+}
+
+img{
+    animation: imgsize 10s 3s infinite;
+}
+
+
+
+@keyframes backgroundBG{
+    0%{
+        background-color: blanchedalmond;
+    }
+    50%{
+        background-color: blueviolet;
+    }
+
+    100%{
+        background-color: blanchedalmond;
+    }
+    
+}
+
+
+@keyframes imgsize {
+    0%{
+        width: 200px;
+    }
+    50%{
+        width: 500px;
+    }
+
+    100%{
+        width: 200px;
+    }
+    
+}

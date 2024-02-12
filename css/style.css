@@ -36,7 +36,7 @@ img{
 }
 
 .imgborder{
-    animation: borderani 10s infinite;
+    animation: colorchanging 10s infinite;
 }
 
 
@@ -46,8 +46,11 @@ img{
     
 }
 
+p{
+    animation: colorchanging 10s infinite;
+}
 
-@keyframes borderani {
+@keyframes colorchanging {
     0%{
         color: rgb(195, 3, 35);
     }

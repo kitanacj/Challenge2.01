@@ -23,52 +23,67 @@
     margin: 10px;
     padding: 10px;
     border: solid 1px;
-    text-align: center;  
+    align-content: center; 
+    text-align: center; 
     border-radius: 10px; 
-    position: center;
-}
-  
-
-
-img{
-    width: 75%;
-}
-/* body{
-    animation: backgroundBG 5s;
-
-} */
-
-.flexitem2{
-    animation: imgsize 10s 3s infinite;
-}
-
-
-
-@keyframes backgroundBG{
-    0%{
-        background-color: blanchedalmond;
-    }
-    50%{
-        background-color: blueviolet;
-    }
-
-    100%{
-        background-color: blanchedalmond;
-    }
     
 }
 
 
-@keyframes imgsize {
-    75%{
-        width: 100px;
+img{
+    width: 75%;
+    border: 5px solid;
+}
+
+.imgborder{
+    animation: borderani 10s infinite;
+}
+
+
+.imgsize{
+
+    animation: imgsizing 10s infinite ;
+    
+}
+
+
+@keyframes borderani {
+    0%{
+        color: rgb(195, 3, 35);
     }
     50%{
-        width: 200px;
+        color: rgb(87, 56, 198);
     }
 
     75%{
-        width: 00px;
+        color: rgb(16, 198, 144);
+
+    }   
+    100%{
+        color: rgb(230, 206, 50);
+
+    }   
+}
+
+
+
+@keyframes imgsizing {
+    0%{
+        width: 75%;
+    }
+    25%{
+        width: 50%;
+    
+    }
+    50%{
+        width: 25%;
+    }
+    75%{
+        width: 50%;
+    }
+
+    100%{
+        width: 75%;
     }
     
 }
